@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="sjp-core" />
         <module name="sjp-web" />
+        <module name="prod" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="prod" options="-parameters" />
       <module name="sjp-core" options="-parameters" />
       <module name="sjp-web" options="-parameters" />
     </option>

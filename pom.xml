@@ -18,6 +18,7 @@
   <modules>
     <module>sjp-core</module>
     <module>sjp-web</module>
+    <module>prod</module>
   </modules>
 
   <properties>
